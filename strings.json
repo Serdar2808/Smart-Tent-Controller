@@ -1,0 +1,59 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Open Grow Box einrichten",
+        "description": "Wähle deinen Bereich und weise Sensoren sowie Geräte zu.",
+        "data": {
+          "area_name":        "Bereich (Area)",
+          "sensor_temp":      "Temperatur Sensor",
+          "sensor_hum":       "Luftfeuchtigkeit Sensor",
+          "fan_exhaust":      "Abluft Ventilator",
+          "fan_intake":       "Zuluft Ventilator (optional)",
+          "humidifier":       "Befeuchter (optional)",
+          "light":            "Licht (optional)",
+          "light_on_hour":    "Licht AN um (Stunde)",
+          "light_off_hour":   "Licht AUS um (Stunde)",
+          "vpd_tolerance":    "VPD Toleranz",
+          "exhaust_min":      "Abluft Minimum",
+          "exhaust_max":      "Abluft Maximum",
+          "vpd_night_target": "VPD Nacht-Zielwert"
+        }
+      }
+    },
+    "error": {
+      "light_hours_equal":    "Ein- und Ausschaltzeit dürfen nicht gleich sein.",
+      "exhaust_limits_invalid": "Abluft Minimum muss kleiner als Maximum sein."
+    },
+    "abort": {
+      "already_configured": "Dieser Bereich ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Open Grow Box konfigurieren",
+        "description": "Passe Geräte und Einstellungen an.",
+        "data": {
+          "area_name":        "Bereich (Area)",
+          "sensor_temp":      "Temperatur Sensor",
+          "sensor_hum":       "Luftfeuchtigkeit Sensor",
+          "fan_exhaust":      "Abluft Ventilator",
+          "fan_intake":       "Zuluft Ventilator (optional)",
+          "humidifier":       "Befeuchter (optional)",
+          "light":            "Licht (optional)",
+          "light_on_hour":    "Licht AN um (Stunde)",
+          "light_off_hour":   "Licht AUS um (Stunde)",
+          "vpd_tolerance":    "VPD Toleranz",
+          "exhaust_min":      "Abluft Minimum",
+          "exhaust_max":      "Abluft Maximum",
+          "vpd_night_target": "VPD Nacht-Zielwert"
+        }
+      }
+    },
+    "error": {
+      "light_hours_equal":      "Ein- und Ausschaltzeit dürfen nicht gleich sein.",
+      "exhaust_limits_invalid": "Abluft Minimum muss kleiner als Maximum sein."
+    }
+  }
+}

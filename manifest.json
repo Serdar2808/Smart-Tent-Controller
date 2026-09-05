@@ -1,0 +1,10 @@
+{
+  "domain": "smart_tent_controller",
+  "name": "Smart Tent Controller",
+  "codeowners": ["@dein_name"],
+  "config_flow": true,
+  "documentation": "https://github.com/dein_repo/smart_tent_controller",
+  "iot_class": "local_push",
+  "version": "1.0.0",
+  "requirements": []
+}
