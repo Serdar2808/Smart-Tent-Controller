@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Open Grow Box Setup",
+        "description": "Konfiguriere dein Zelt. Wähle die passenden Sensoren und Aktoren aus.",
+        "data": {
+          "name": "Name des Zelts (z. B. Blütezelt)",
+          "temp_sensor": "Temperatur-Sensor (ESP32)",
+          "hum_sensor": "Luftfeuchtigkeits-Sensor (ESP32)",
+          "fan_entity": "Abluft-Ventilator",
+          "humidifier_entity": "Luftbefeuchter (Optional)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Zelt ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "fan_entity": "Abluft-Ventilator ändern",
+          "humidifier_entity": "Befeuchter ändern"
+        }
+      }
+    }
+  }
+}
